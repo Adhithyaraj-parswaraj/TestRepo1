@@ -1,0 +1,393 @@
+ {
+  "modules": {
+    "sede-x__terraform-aws-acm": {
+      "identifier": "sede-x/terraform-aws-acm"
+    },
+    "sede-x__terraform-aws-apigateway": {
+      "identifier": "sede-x/terraform-aws-apigateway"
+    },
+    "sede-x__terraform-aws-cloudfront": {
+      "identifier": "sede-x/terraform-aws-cloudfront"
+    },
+    "sede-x__terraform-aws-datasource": {
+      "identifier": "sede-x/terraform-aws-datasource"
+    },
+    "sede-x__terraform-aws-ec2": {
+      "identifier": "sede-x/terraform-aws-ec2"
+    },
+    "sede-x__terraform-aws-efs": {
+      "identifier": "sede-x/terraform-aws-efs"
+    },
+    "sede-x__terraform-aws-eip": {
+      "identifier": "sede-x/terraform-aws-eip"
+    },
+    "sede-x__terraform-aws-eks": {
+      "identifier": "sede-x/terraform-aws-eks"
+    },
+    "sede-x__terraform-aws-grafana": {
+      "identifier": "sede-x/terraform-aws-grafana"
+    },
+    "sede-x__terraform-aws-kms": {
+      "identifier": "sede-x/terraform-aws-kms"
+    },
+    "sede-x__terraform-aws-lambda": {
+      "identifier": "sede-x/terraform-aws-lambda"
+    },
+    "sede-x__terraform-aws-loadbalancer": {
+      "identifier": "sede-x/terraform-aws-loadbalancer"
+    },
+    "sede-x__terraform-aws-prometheus": {
+      "identifier": "sede-x/terraform-aws-prometheus"
+    },
+    "sede-x__terraform-aws-rds": {
+      "identifier": "sede-x/terraform-aws-rds"
+    },
+    "sede-x__terraform-aws-route53": {
+      "identifier": "sede-x/terraform-aws-route53"
+    },
+    "sede-x__terraform-aws-s3": {
+      "identifier": "sede-x/terraform-aws-s3"
+    },
+    "sede-x__terraform-aws-secretsmanager": {
+      "identifier": "sede-x/terraform-aws-secretsmanager"
+    },
+    "sede-x__terraform-aws-ses": {
+      "identifier": "sede-x/terraform-aws-ses"
+    },
+    "sede-x__terraform-aws-sns": {
+      "identifier": "sede-x/terraform-aws-sns"
+    },
+    "sede-x__terraform-aws-sqs": {
+      "identifier": "sede-x/terraform-aws-sqs"
+    },
+    "sede-x__terraform-aws-vpc": {
+      "identifier": "sede-x/terraform-aws-vpc"
+    },
+    "sede-x__terraform-github-aws": {
+      "identifier": "sede-x/terraform-github-aws"
+    },
+    "sede-x__terraform-github-azure": {
+      "identifier": "sede-x/terraform-github-azure"
+    },
+    "sede-x__terraform-github-iiac": {
+      "identifier": "sede-x/terraform-github-iiac"
+    },
+    "sede-x__terraform-helm-cert-manager": {
+      "identifier": "sede-x/terraform-helm-cert-manager"
+    },
+    "sede-x__terraform-helm-cluster-autoscaler": {
+      "identifier": "sede-x/terraform-helm-cluster-autoscaler"
+    },
+    "sede-x__terraform-helm-eck-operator": {
+      "identifier": "sede-x/terraform-helm-eck-operator"
+    },
+    "sede-x__terraform-helm-elasticsearch": {
+      "identifier": "sede-x/terraform-helm-elasticsearch"
+    },
+    "sede-x__terraform-helm-elasticsearch-curator": {
+      "identifier": "sede-x/terraform-helm-elasticsearch-curator"
+    },
+    "sede-x__terraform-helm-external-dns": {
+      "identifier": "sede-x/terraform-helm-external-dns"
+    },
+    "sede-x__terraform-helm-fluentd": {
+      "identifier": "sede-x/terraform-helm-fluentd"
+    },
+    "sede-x__terraform-helm-ingress-nginx": {
+      "identifier": "sede-x/terraform-helm-ingress-nginx"
+    },
+    "sede-x__terraform-helm-kibana": {
+      "identifier": "sede-x/terraform-helm-kibana"
+    },
+    "sede-x__terraform-helm-kube-prometheus-stack": {
+      "identifier": "sede-x/terraform-helm-kube-prometheus-stack"
+    },
+    "sede-x__terraform-helm-metrics-server": {
+      "identifier": "sede-x/terraform-helm-metrics-server"
+    },
+    "sede-x__terraform-helm-velero": {
+      "identifier": "sede-x/terraform-helm-velero"
+    }
+  },
+  "teams": {
+    "frontera": {
+      "dap_group": "frontera"
+    },
+    "deepblue": {
+      "dap_group": "deepblue"
+    },
+    "titan": {
+      "dap_group": "aws-titan"
+    },
+    "carboncalculator": {
+      "dap_group": "aws-carboncalculator"
+    },
+    "da-artemis": {
+      "dap_group": "aws-da-artemis"
+    },
+    "da-iac": {
+      "dap_group": "aws-da-iac"
+    },
+    "da-pdc": {
+      "dap_group": "aws-da-pdc"
+    },
+    "greendealer": {
+      "dap_group": "aws-greendealer"
+    },
+    "geosigns": {
+      "dap_group": "aws-geosigns"
+    },
+    "osdudp": {
+      "dap_group": "aws-osdudp"
+    },
+    "wipro": {
+      "dap_group": "aws-wipro"
+    }
+  },
+  "workspaces": {
+    "ws_1621422811382986000": {
+      "name": "frontera__awsatshellpoc",
+      "team": "frontera",
+      "terraform_version": "0.14.6",
+      "vcs_repo": {
+        "identifier": "sede-x/beagile-frontera-awsatshellpoc"
+      }
+    },
+    "ws_1621422811382986001": {
+      "name": "frontera__github-actions",
+      "team": "frontera",
+      "terraform_version": "1.0.3"
+    },
+    "ws_1652803934154365001": {
+      "name": "deepblue__dremio__dev",
+      "team": "deepblue",
+      "terraform_version": "1.1.5"
+    },
+    "ws_1652803934154365002": {
+      "name": "deepblue__dremio__prod",
+      "team": "deepblue",
+      "terraform_version": "1.1.5"
+    },
+    "ws_1652803934154365003": {
+      "name": "deepblue__dremio__uat",
+      "team": "deepblue",
+      "terraform_version": "1.1.5"
+    },
+    "ws_1652954963602499000": {
+      "name": "titan__test",
+      "team": "titan",
+      "terraform_version": "1.1.5"
+    },
+    "ws_1649245065905632001": {
+      "name": "carboncalculator__sandbox",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1649245065905632002": {
+      "name": "carboncalculator__dev",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1649245065905632003": {
+      "name": "carboncalculator__test",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1649245065905632004": {
+      "name": "carboncalculator__uat",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1649245065905632005": {
+      "name": "carboncalculator__preprod",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1649245065905632006": {
+      "name": "carboncalculator__prod",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1652955515803072000": {
+      "name": "carboncalculator__delegationset__nonprod",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1652955515803072001": {
+      "name": "carboncalculator__delegationset__prod",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1652955654095731000": {
+      "name": "carboncalculator__cognitousers__sandbox",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1652955654095731001": {
+      "name": "carboncalculator__cognitousers__dev",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1652955654095731002": {
+      "name": "carboncalculator__cognitousers__test",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1652955654095731003": {
+      "name": "carboncalculator__cognitousers__uat",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1652955654095731004": {
+      "name": "carboncalculator__cognitousers__preprod",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1652955654095731005": {
+      "name": "carboncalculator__cognitousers__prod",
+      "team": "carboncalculator",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1627371670000000000": {
+      "name": "da-artemis__pdc__dev",
+      "team": "da-artemis",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1627371670000000001": {
+      "name": "da-artemis__pdc__stage",
+      "team": "da-artemis",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1627371670000000002": {
+      "name": "da-artemis__pdc__prod",
+      "team": "da-artemis",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1623403186632008000": {
+      "name": "da-iac__innersource-aws__dev__automatatedtest",
+      "team": "da-iac",
+      "terraform_version": "0.14.11",
+      "vcs_repo": {
+        "identifier": "sede-x/iiac-automatedtesting-aws-dev"
+      }
+    },
+    "ws_1623403186632008001": {
+      "name": "da-iac__innersource-aws__dev__poc",
+      "team": "da-iac",
+      "terraform_version": "0.14.11",
+      "vcs_repo": {
+        "identifier": "sede-x/iiac-tfe-aws-poc"
+      }
+    },
+    "ws_1623403186632008003": {
+      "name": "da-iac__innersource-aws__tst__githubrepos",
+      "team": "da-iac",
+      "terraform_version": "0.14.11",
+      "vcs_repo": {
+        "identifier": "sede-x/terraform-github-aws-test"
+      }
+    },
+    "ws_1632823759000000001": {
+      "name": "da-pdc__pdc__dev",
+      "team": "da-pdc",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1632823759000000002": {
+      "name": "da-pdc__pdc__stage",
+      "team": "da-pdc",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1632823759000000003": {
+      "name": "da-pdc__pdc__pdc",
+      "team": "da-pdc",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1649331356578971000": {
+      "name": "da-pdc__dremio__dev",
+      "team": "da-pdc",
+      "terraform_version": "1.0.3"
+    },
+    "ws_1649331356578971001": {
+      "name": "da-pdc__dremio__stage",
+      "team": "da-pdc",
+      "terraform_version": "1.0.3"
+    },
+    "ws_1649331356578971002": {
+      "name": "da-pdc__dremio__prod",
+      "team": "da-pdc",
+      "terraform_version": "1.0.3"
+    },
+    "ws_1651738484833632000": {
+      "name": "da-pdc__reskpi__prod",
+      "team": "da-pdc",
+      "terraform_version": "1.0.3"
+    },
+    "ws_1632823759000000004": {
+      "name": "da-iac__pdc-sre-infrastructure",
+      "team": "da-iac",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1632823759000000005": {
+      "name": "da-iac__github-actions-test",
+      "team": "da-iac",
+      "terraform_version": "1.0.3"
+    },
+    "ws_1632823943000000001": {
+      "name": "greendealer__greendealer__dev",
+      "team": "greendealer",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1632823943000000002": {
+      "name": "greendealer__greendealer__test",
+      "team": "greendealer",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1632823943000000003": {
+      "name": "greendealer__greendealer__prod",
+      "team": "greendealer",
+      "terraform_version": "0.14.11"
+    },
+    "ws_1632823944000000001": {
+      "name": "geosigns__geosigns__dev",
+      "team": "geosigns",
+      "terraform_version": "0.14.11",
+      "vcs_repo": {
+        "identifier": "sede-x/geosigns-si-aws-tfe"
+      }
+    },
+    "ws_1637580370000000001": {
+      "name": "osdudp__acc",
+      "team": "osdudp",
+      "terraform_version": "1.0.3",
+      "vcs_repo": {
+        "identifier": "sede-x/osdudp"
+      }
+    },
+    "ws_1637580370000000002": {
+      "name": "osdudp__dev",
+      "team": "osdudp",
+      "terraform_version": "1.0.3",
+      "vcs_repo": {
+        "identifier": "sede-x/osdudp"
+      }
+    },
+    "ws_1651153521006184000": {
+      "name": "wipro__respc__test",
+      "team": "wipro",
+      "terraform_version": "1.0.3"
+    }
+  }
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
